@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jtura@agsx.net"
+    AccountEmail              = "jtura+sandbox@agsx.net"
     AccountName               = "jtura-sb-03"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "jtura@agsx.net"
+    SSOUserEmail              = "jtura+sandbox@agsx.net"
     SSOUserFirstName          = "Jan Luis"
     SSOUserLastName           = "Tura"
   }
