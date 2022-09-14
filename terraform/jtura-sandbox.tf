@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "jtura+sandbox@agsx.net"
-    AccountName               = "jtura-sb-03"
+    AccountName               = "jtura-sb-04"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "jtura+sandbox@agsx.net"
     SSOUserFirstName          = "Jan Luis"
